@@ -56,6 +56,8 @@ class ItemEntryViewModel(private val itemsRepository: ItemsRepository) : ViewMod
         }
     }
 
+
+
 }
 
 /**
@@ -106,3 +108,5 @@ fun Item.toItemDetails(): ItemDetails = ItemDetails(
     price = price.toString(),
     quantity = quantity.toString()
 )
+
+
